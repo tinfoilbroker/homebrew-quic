@@ -8,6 +8,12 @@ class Angle < Formula
   version "chromium-5682"
   license "BSD-3-Clause"
 
+  bottle do
+    root_url "https://ghcr.io/v2/quic/quic"
+    rebuild 1
+    sha256 cellar: :any, arm64_sonoma: "41d2ce982c5a70b3756b3dd51a169c082ecbeb943090e5c542c63ed0ad20e5b0"
+  end
+
   depends_on "python3"
 
   on_macos do
