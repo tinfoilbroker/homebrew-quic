@@ -8,6 +8,12 @@ class Libepoxy < Formula
   version "20220529"
   license "MIT"
 
+  bottle do
+    root_url "https://ghcr.io/v2/quic/quic"
+    rebuild 1
+    sha256 cellar: :any, arm64_sonoma: "0861b0fb0530f0d690ebb2ed3135271b28819efcdb8c72a5330fa429c40193f2"
+  end
+
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkg-config" => :build
