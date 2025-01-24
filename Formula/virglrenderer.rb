@@ -1,4 +1,4 @@
-# Copyright (c) 2023, Qualcomm Innovation Center, Inc. All rights reserved.
+# Copyright (c) 2023-2025, Qualcomm Innovation Center, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-2-Clause
 
 class Virglrenderer < Formula
